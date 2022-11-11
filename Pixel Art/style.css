@@ -1,0 +1,98 @@
+.palette{
+  display: flex;
+  justify-content: center;
+}
+
+.color{
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.green{
+  background-color: green;
+  border: 1px solid black;
+}
+
+.yellow{
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.orange{
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.grey{
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.black{
+  background-color: black;
+  border: 1px solid black;
+}
+
+.red{
+  background-color: red;
+  border: 1px solid black;
+}
+
+.brown{
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.blue{
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.purple{
+  background-color: purple;
+  border: 1px solid black;
+}
+
+.pink{
+  background-color: rgb(255, 88, 158);
+  border: 1px solid black;
+}
+
+.white{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.chosen{
+  display: flex;
+  justify-content: center;
+}
+
+#chosenColor{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+}
+
+.screenWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.screen{
+  display: grid;
+  grid-template-columns: repeat(10, 0fr);
+  grid-template-rows: repeat(10, 0fr);
+  grid-auto-rows: 200px;
+}
+
+.block{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
