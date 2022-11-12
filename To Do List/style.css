@@ -1,0 +1,112 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: rgb(146,255,78);
+  background: linear-gradient(90deg, rgba(146,255,78,1) 0%, rgba(255,108,108,1) 100%);
+}
+
+.title{
+  text-align: center;
+}
+
+.inputSection{
+  display: flex;
+  justify-content: center;
+}
+
+#toDoInput{
+  width: 70%;
+  height: 50px;
+  font-size: 40px;
+}
+
+.buttonSection{
+  display: flex;
+  justify-content: center;
+}
+
+#addButton{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(50, 214, 50);
+  border-radius: 7%;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#clearButton{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(223, 39, 39);
+  border-radius: 7%;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.eachTask{
+  display: flex;
+  justify-content: center;
+}
+
+.taskText{
+  justify-self: center;
+  width: 75%;
+  background-color: rgb(216, 216, 216);
+  text-indent: 10px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid rgb(44, 44, 44);
+  word-wrap: break-word;
+}
+
+.completedTask{
+  background-color: limegreen;
+}
+
+.checkIconWrapper{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgb(44, 44, 44);
+}
+
+.checkIconWrapper:hover{
+  background-color: green;
+  transition: 200ms;
+}
+
+.fa-check{
+  font-size: 30px;
+}
+
+.xmarkIconWrapper{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgb(44, 44, 44);
+}
+
+.xmarkIconWrapper:hover{
+  background-color: red;
+  transition: 200ms;
+}
+
+.fa-xmark{
+  font-size: 30px;
+}
