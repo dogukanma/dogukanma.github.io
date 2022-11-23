@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex | Pokemon Cards</title>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- CUSTOM JS -->
+  <script src="app.js" defer></script>
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-------- LOADING SECTION -------->
+  <div class="loading">
+    <h1>Loading</h1>
+    <div class="dotDiv">
+      <h1 class="dot1">.</h1>
+      <h1 class="dot2">.</h1>
+      <h1 class="dot3">.</h1>
+      <h1 class="dot4">.</h1>
+      <h1 class="dot5">.</h1>
+    </div>
+  </div>
+<!-------- TITLE AND SEARCH SECTION -------->
+  <h1 class="poke-title hide">Pokedex</h1>
+  <form id="poke-form" class="hide">
+    <input type="text" id="poke-input" class="hide" placeholder="Search by name">
+    <button class="poke-search-btn hide"><i style="font-size: 20px;" class="fa-solid fa-magnifying-glass"></i></button>
+  </form>
+<!-------- POKEMON CARDS -------->
+  <div class="poke-container hide">
+    <!-- <div class="poke-card">
+      <img class="poke-img" 
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      alt="Bulbasaur">
+      <h1 class="poke-name">Bulbasaur</h1>
+      <p class="poke-id">#001</p>
+      <p class="poke-weight">Weight: 69 kg</p>
+      <p class="poke-type">Type: Grass</p>
+    </div> -->
+  </div>
+</body>
+</html>
