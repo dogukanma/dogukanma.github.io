@@ -1,0 +1,35 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background: rgb(230,226,33);
+  background: linear-gradient(90deg, rgba(230,226,33,1) 0%, rgba(44,199,132,1) 63%, rgba(22,224,211,1) 100%);
+}
+
+#numberSection{
+  display: flex;
+  height: 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#note{
+  position: relative;
+}
+
+#buttonSection{
+  display: flex;
+  justify-content: center;
+}
+
+#buttonSection > button{
+  height: 48px;
+  width: 200px;
+  font-size: 24px;
+  border-radius: 7%;
+}
+
+#buttonSection > button:not(:disabled):hover{
+  transition: ease-in-out;
+  transition-duration: 100ms;
+  background-color: rgb(154, 154, 154);
+}

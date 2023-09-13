@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="numberSection">
+    <span id="hours" style="font-size: 64px;">00 : &nbsp;</span>
+    <span id="minutes" style="font-size: 64px;">00 : &nbsp;</span>
+    <span id="seconds" style="font-size: 64px;">00</span>
+  </div>
+  <br>
+  <div id="buttonSection">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+  </div>
+  <br><br><hr>
+  <div id="Note">
+    <h1 style="text-align: center;"> Attention</h1>
+    <h2 style="text-align: center;">This stopwatch does not calculate miliseconds. Which means if you stop it before it adds another second, 
+      passed miliseconds will not be taken into account and after starting again, it will start from [passed seconds + 0 miliseconds]. 
+      There might be other minor problems.
+    </h2>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

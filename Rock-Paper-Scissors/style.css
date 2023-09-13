@@ -1,0 +1,14 @@
+body {
+  background-color: cadetblue;
+}
+
+.buttons {
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-evenly;
+}
