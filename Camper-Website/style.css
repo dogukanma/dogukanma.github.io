@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(mountain-view2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.white {
+  color: rgb(237, 237, 237);
+}
+
+.brand-name {
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+}
+
+.navbar > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 25px;
+  position: relative;
+}
+
+.navbar-item::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(1, 175, 102);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transform: scaleX(0);
+  transition: transform 200ms ease;
+}
+
+.navbar-item:hover::before {
+  transform: scaleX(1);
+}
+
+.navbar-item > a {
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+}
+
+.dropdown-mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
+  width: 30vw;
+}
+
+.toggle-dropdown{
+  background-color: rgb(255, 176, 28);
+  width: 60px;
+  height: 40px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 10px;
+  padding: auto;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.ul-navbar-mobile{
+  list-style: none;
+}
+
+.navbar-item-mobile{
+  list-style: none;
+  margin-top: 7px ;
+}
+
+.navbar-item-mobile > a{
+  text-decoration: none;
+  color: rgb(237, 237, 237);
+}
+
+.section-mid {
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+  font-family: "Roboto", sans-serif;
+}
+
+.section-mid > h1 {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.section-paragraphs {
+  margin-top: 10px;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.section-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 2px solid rgb(0, 199, 152);
+  border-radius: 99em;
+  font-size: 20px;
+  width: 175px;
+  height: 50px;
+  margin: 12px 8px;
+  background-color: rgba(91, 91, 91, 0.6);
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+
+.btn:hover {
+  background-color: rgba(0, 124, 72, 0.8);
+}
+
+@media (max-width: 768px) {
+  .ul-navbar-desktop {
+    display: none;
+  }
+
+  .section-paragraphs {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .dropdown-mobile {
+    display: none;
+  }
+}
+
+.hide{
+  display: none;
+}
