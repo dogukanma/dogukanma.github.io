@@ -10,7 +10,7 @@ const dot2 = document.querySelector(".dot2")
 const dot3 = document.querySelector(".dot3")
 const dot4 = document.querySelector(".dot4")
 const dot5 = document.querySelector(".dot5")
-const pokeCount = 200
+const pokeCount = 100 // Changed from 200
 const pokemonArray = []
 
 /* In this section I tried to make a loading animation for the first time */
