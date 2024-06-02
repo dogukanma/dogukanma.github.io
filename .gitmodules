@@ -1,0 +1,3 @@
+[submodule "CurrencyConverter"]
+	path = CurrencyConverter
+	url = https://github.com/dogukanma/CurrencyConverter
